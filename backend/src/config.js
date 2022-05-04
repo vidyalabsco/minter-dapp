@@ -105,7 +105,7 @@ const PRESALE_MINT_START_DATE =  "2022-04-30T22:00:00+00:00"; // Optional. Eg: 2
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x42f38FF4D8bb2d0C349669ACabd71CFFE4E4AdF8"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
-const PREREVEAL_TOKEN_URI = "https://ipfs.io/ipfs/bafkreidrzzmxjlgz76crer3xuaedkkizasksmibigl6ch5jktnnfzmdjyu"; // only update if you want to manually set the prereveal token uri
+const PREREVEAL_TOKEN_URI = "https://ipfs.io/ipfs/bafybeihs3fyh24u57cqhuzl2ebu2fwrfc4pglpv57xcfjqogm7iehmtnuq"; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES =  ["0xD7C5A3Df55f41a2BBc87d1fE2DB8b2C0470cbD83"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
@@ -115,7 +115,7 @@ let CONTRACT_ADDRESS = ""; // If you want to manually include it
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which BaskHeadBall will you be?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreidrzzmxjlgz76crer3xuaedkkizasksmibigl6ch5jktnnfzmdjyu"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeihs3fyh24u57cqhuzl2ebu2fwrfc4pglpv57xcfjqogm7iehmtnuq"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
