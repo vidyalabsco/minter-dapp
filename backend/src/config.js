@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "BaskHeadBallz By Valentina Vignali NFT";
+const namePrefix = "BaskHeadBallz By Valentina Vignali";
 const description = "BaskHeadBallz is a collection of 10000 NFT that was born from the collaboration between the influencer Valentina Vignali and the company VidyaLabs. VidyaLabs graphics have generated the NFTs starting from over 280 different traits personally selected and inspired by Valentina Vignali.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -88,7 +88,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'BaskHeadBallz By Valentina Vignali NFT';
+const CONTRACT_NAME = 'BaskHeadBallz By Valentina Vignali';
 const CONTRACT_SYMBOL = 'BHB';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x42f38FF4D8bb2d0C349669ACabd71CFFE4E4AdF8';
@@ -109,7 +109,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES =  null; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x85629315412234DCa2Ab95a04743216a941A6c02"; // If you want to manually include it
+let CONTRACT_ADDRESS = ""; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
