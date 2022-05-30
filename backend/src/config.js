@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "BaskHeadBallz By Valentina Vignali";
+const namePrefix = "BaskHeadBallz By Valentina Vignali NFT";
 const description = "BaskHeadBallz is a collection of 10000 NFT that was born from the collaboration between the influencer Valentina Vignali and the company VidyaLabs. VidyaLabs graphics have generated the NFTs starting from over 280 different traits personally selected and inspired by Valentina Vignali.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -88,14 +88,14 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'BaskHeadBallz By Valentina Vignali';
+const CONTRACT_NAME = 'BaskHeadBallz By Valentina Vignali NFT';
 const CONTRACT_SYMBOL = 'BHB';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x42f38FF4D8bb2d0C349669ACabd71CFFE4E4AdF8';
 const TREASURY_ADDRESS = '0x42f38FF4D8bb2d0C349669ACabd71CFFE4E4AdF8';
 const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 180; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 50; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MINT_PRICE = 25; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 100; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-05-29T22:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
